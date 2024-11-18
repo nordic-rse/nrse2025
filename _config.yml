@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "2025 Nordic-RSE conference"
 email: "FIXME"
 description: "2025 Nordic-RSE conference "
-baseurl: "nrse2025"
+baseurl: ""
 url: "https://nordic-rse.org"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: ""
