@@ -43,33 +43,33 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+# - {permalink: "/blog/", text: "Blog"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/team/", text: "Team"}
+# - {permalink: "/logistics/", text: "Logistics"}
+# - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
-heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+heroTitle: "Nordic-RSE <typeout> 2025"
+eventDate: "May 20-21, 2025"
+typeoutTextValues: '"", "Gothenburg", "Sweden"'
+typeoutFallback: "Gothenburg"
+# heroButtons:
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About Nordic-RSE Conference"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Share experiences", image: "share.png", text: "Share your experiences and ideas with other alike cool people." }
+ - {title: "Be social", image: "community.png", text: "Have fun and play some games with other like-minded people!" }
+ - {title: "Learn Tools", image: "share.png", text: "Learn new tools to boost your productivity!"}
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -179,19 +179,19 @@ socialLinks:
  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
- -
-  title: "Links"
-  links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+#  -
+#   title: "Links"
+#   links:
+#    - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+#    - {link: "https://developers.google.com", text: "Google Developers"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:secreatary@nordic-rse.org", text: "secretary@nordic-rse.org"}
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "https://nordic-rse.org/about/code-of-conduct/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
