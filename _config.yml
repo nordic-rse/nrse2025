@@ -90,9 +90,9 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Gothenburg University"
+eventLocationName: "University of Gothenburg"
 eventLocationLink: "https://www.gu.se/en"
-eventStreetAddress: "Universitetsplatsen 1"
+eventStreetAddress: "Renströmsgatan 6"
 eventAddressLocality: "Gothenburg"
 eventAddressLocalityRegion: ""
 eventPostalCode: "40530"
@@ -100,9 +100,9 @@ eventAddressCountry: "Sweden"
 eventStartTime: "2025-05-20"
 eventDoorTime: "09:00"
 eventEndTime: "2025-21-21"
-eventPlaceCoordinates: "57.708870, 11.974560"
-mapCenterCoordinates: "57.708870, 11.974560"
-mapMobileCenterCoordinates: "57.708870, 11.974560"
+eventPlaceCoordinates: "57.694991549472945, 11.98507934052062"
+mapCenterCoordinates: "57.694991549472945, 11.98507934052062"
+mapMobileCenterCoordinates: "57.694991549472945, 11.98507934052062"
 
 # Venue Block
 venueBlockTitle: "Venue"
@@ -110,7 +110,7 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Gothenburg University"
+venueTitle: "University of Gothenburg"
 venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
 # Tweets Feed Block
