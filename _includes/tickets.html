@@ -1,8 +1,9 @@
 <!-- Begin Tickets Section -->
 <section id="tickets" class="tickets">
 	<div class="content-wrapper">
-		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
-			<h3>{{ site.ticketsTitle }}</h3>
+		<h3>{{ site.ticketsTitle }}</h3>
+		<p style="font-size:20px; padding-bottom: 10px;">{{ site.ticketsInfo }}</p>
+		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1" style="padding-top:30px;">
             {% for ticketsOffer in site.ticketsOffers %}
 	            {% assign colWidth = 12 | divided_by: forloop.length %}
 	            {% assign check = forloop.index | modulo:2 %}
