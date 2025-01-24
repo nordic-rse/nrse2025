@@ -145,7 +145,7 @@ ticketsOffers:
   buyButtonLink: "FIXME"
   featured: true
   buyButtonText: "Buy Now"
-  ticketContentList: ["For undegraduate (bachelor and master) students"]
+  ticketContentList: ["For students (bachelor, master or PhD)"]
   validFrom: "2025-01-24T10:00"
   validThrough: "2025-05-19T23:59"
  -
@@ -157,7 +157,7 @@ ticketsOffers:
   ribbon: "-FIXME%"
   buyButtonLink: "FIXME"
   buyButtonText: "Buy Now"
-  ticketContentList: ["For members of Nordic-RSE association", "If can become N-RSE member here TODO:link"]
+  ticketContentList: ["For members of Nordic-RSE association", 'To become N-RSE member, see instructions <a href="https://nordic-rse.org/about/membership/">here</a>.']
   validFrom: "2025-01-24T10:00"
   validThrough: "2025-05-19T23:59"
 
