@@ -44,7 +44,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/#cfp", text: "Call for contributions"}
-# - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/#venue", text: "Venue"}
 # - {permalink: "/team/", text: "Team"}
 # - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
@@ -106,11 +106,13 @@ mapMobileCenterCoordinates: "57.694991549472945, 11.98507934052062"
 # Venue Block
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
+venueBigImageCredits: "Natonato, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons"
 venueSmallImage1: "venue_1.jpg"
+venueSmallImage1Credits: "Gunnar Jönsson (taken from: https://www.gu.se/studera/hitta-utbildning/vara-lokaler-pa-humanisten)"
 venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
+venueSmallImage2Credits: "Jessica Oscarsson (taken from: https://www.gu.se/nyheter/da-inviger-vi-nya-humanisten)"
 venueTitle: "University of Gothenburg"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueFeatures: ["Renströmsgatan 6", "Gothenburg, Sweden"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
