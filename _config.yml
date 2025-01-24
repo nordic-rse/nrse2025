@@ -44,6 +44,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: 'Home'}
  - {permalink: "/#cfp", text: "Call for contributions"}
+ - {permalink: "/#tickets", text: "Registratrion"}
  - {permalink: "/#venue", text: "Venue"}
 # - {permalink: "/team/", text: "Team"}
 # - {permalink: "/logistics/", text: "Logistics"}
@@ -132,46 +133,57 @@ subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b05
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Registration"
+ticketsInfo: 'Tickets grant access to TODO. Accommodation is NOT included in the ticket price. If you would like to apply for a waiver, please send an email to <a href="mailto:secretary@nordic-rse.org">secretary@nordic-rse.org</a>, decision will be made on a per-case basis.'
 ticketsOffers:
  -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
-  featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
- -
   name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  price: "FIXME"
+  priceCurrency: "EUR"
+  ticketsNumber: ""
+  ribbon: "-FIXME%"
+  buyButtonLink: "FIXME"
+  featured: true
   buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+  ticketContentList: ["For undegraduate (bachelor and master) students"]
+  validFrom: "2025-01-24T10:00"
+  validThrough: "2025-05-19T23:59"
+ -
+  name: "N-RSE member"
+  price: "FIXME"
+  priceCurrency: "EUR"
+  ticketsNumber: ""
+  featured: true
+  ribbon: "-FIXME%"
+  buyButtonLink: "FIXME"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["For members of Nordic-RSE association", "If can become N-RSE member here TODO:link"]
+  validFrom: "2025-01-24T10:00"
+  validThrough: "2025-05-19T23:59"
+
+ -
+  name: "Individual ticket"
+  price: "FIXME"
+  priceCurrency: "EUR"
+  ticketsNumber: ""
+  featured: true
+  buyButtonLink: "FIXME"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Select this if you are not a student and are paying by yourself"]
+  validFrom: "2025-01-24T10:00"
+  validThrough: "2025-05-19T23:59"
+
+ -
+  name: "Employee ticket"
+  price: "FIXME"
+  priceCurrency: "EUR"
+  featured: true
+  ticketsNumber: ""
+  buyButtonLink: "FIXME"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Please select this if your employer is sponsoring your participation"]
+  validFrom: "2025-01-24T10:00"
+  validThrough: "2025-05-19T23:59"
 
 # Footer
 socialLinks:
