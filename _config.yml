@@ -42,7 +42,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
+ - {permalink: "/", text: 'Home'}
  - {permalink: "/#cfp", text: "Call for contributions"}
  - {permalink: "/#venue", text: "Venue"}
 # - {permalink: "/team/", text: "Team"}
@@ -64,7 +64,7 @@ typeoutFallback: "Gothenburg"
 # - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About Nordic-RSE Conference"
+aboutTitle: "Welcome!"
 aboutBlock:
  - {title: "Share experiences", image: "share.png", text: "Share your experiences and ideas with other alike cool people." }
  - {title: "Be social", image: "community.png", text: "Have fun and play some games with other like-minded people!" }
