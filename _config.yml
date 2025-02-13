@@ -138,14 +138,14 @@ ticketsInfo: 'Tickets grant access to all sessions, lunch on both day and one co
 ticketsOffers:
 
  -
-  name: "Genera admission"
+  name: "General admission"
   price: "900"
   priceCurrency: "SEK"
   featured: true
   ticketsNumber: ""
-  buyButtonLink: "FIXME"
+  buyButtonLink: https://www.tickettailor.com/checkout/new-session/id/5204835/chk/bca4/?ref=website_widget&show_search_filter=true&show_date_filter=true&show_sort=true)
   buyButtonText: "Buy Now"
-  ticketContentList: ["Includes access to all conference events", "Includes lunch on both days", "Includes conference dinner on the first day"]
+  ticketContentList: ["Includes access to all conference events", "Includes lunch on both days", "Includes an informal conference dinner on the first day"]
   validFrom: "2025-01-24T10:00"
   validThrough: "2025-04-30T23:45"
 
