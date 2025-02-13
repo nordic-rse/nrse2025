@@ -134,56 +134,20 @@ subscribeInfo: "Registration will be open around end of August. Number of ticket
 
 # Tickets Block
 ticketsTitle: "Registration"
-ticketsInfo: 'Tickets grant access to TODO. Accommodation is NOT included in the ticket price. If you would like to apply for a waiver, please send an email to <a href="mailto:secretary@nordic-rse.org">secretary@nordic-rse.org</a>, decision will be made on a per-case basis.'
+ticketsInfo: 'Tickets grant access to all sessions, lunch on both day and one conference dinner. Accommodation is NOT included in the ticket price. If you would like to apply for a waiver, please send an email to <a href="mailto:secretary@nordic-rse.org">secretary@nordic-rse.org</a>, decision will be made on a per-case basis.'
 ticketsOffers:
- -
-  name: "Student"
-  price: "FIXME"
-  priceCurrency: "EUR"
-  ticketsNumber: ""
-  ribbon: "-FIXME%"
-  buyButtonLink: "FIXME"
-  featured: true
-  buyButtonText: "Buy Now"
-  ticketContentList: ["For students (bachelor, master or PhD)"]
-  validFrom: "2025-01-24T10:00"
-  validThrough: "2025-05-19T23:59"
- -
-  name: "N-RSE member"
-  price: "FIXME"
-  priceCurrency: "EUR"
-  ticketsNumber: ""
-  featured: true
-  ribbon: "-FIXME%"
-  buyButtonLink: "FIXME"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["For members of Nordic-RSE association", 'To become N-RSE member, see instructions <a href="https://nordic-rse.org/about/membership/">here</a>.']
-  validFrom: "2025-01-24T10:00"
-  validThrough: "2025-05-19T23:59"
 
  -
-  name: "Individual ticket"
-  price: "FIXME"
-  priceCurrency: "EUR"
-  ticketsNumber: ""
-  featured: true
-  buyButtonLink: "FIXME"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Select this if you are not a student and are paying by yourself"]
-  validFrom: "2025-01-24T10:00"
-  validThrough: "2025-05-19T23:59"
-
- -
-  name: "Employee ticket"
-  price: "FIXME"
-  priceCurrency: "EUR"
+  name: "Genera admission"
+  price: "900"
+  priceCurrency: "SEK"
   featured: true
   ticketsNumber: ""
   buyButtonLink: "FIXME"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Please select this if your employer is sponsoring your participation"]
+  ticketContentList: ["Includes access to all conference events", "Includes lunch on both days", "Includes conference dinner on the first day"]
   validFrom: "2025-01-24T10:00"
-  validThrough: "2025-05-19T23:59"
+  validThrough: "2025-04-30T23:45"
 
 # Footer
 socialLinks:
