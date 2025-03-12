@@ -195,7 +195,7 @@ logisticsMapMobileCenterCoordinates: "57.694991549472945, 11.98507934052062"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
-directionDetailsImage: "direction-details.jpg"
+directionDetailsImage: "venue_0.jpg"
 directionDetailsTitle: "Get around Gothenburg"
 directionDetailsCards:
  - {title: "From the Airport", information: 'More info coming soon.'}
@@ -203,29 +203,29 @@ directionDetailsCards:
  - {title: "Hotels", information: 'Gothenburg has lots of great hotels and hostels. More information will be available later.'}
 directionDetailsWideCards:
  -
-  title: "Questions?"
+  title: "Questions"
   subCards:
-   -
+  -
     title: "Hotels"
     links:
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Registration"
+      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+  -
+   title: "Registration"
+   links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+  -
+    title: "Attendance Details"
     links:
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    # title: "Attendance Details"
-    # links:
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
