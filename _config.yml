@@ -164,7 +164,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:secreatary@nordic-rse.org", text: "secretary@nordic-rse.org"}
+   - {link: "mailto:secretary@nordic-rse.org", text: "secretary@nordic-rse.org"}
  -
   title: "FAQ"
   links:
@@ -195,37 +195,38 @@ logisticsMapMobileCenterCoordinates: "57.694991549472945, 11.98507934052062"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
-directionDetailsImage: "direction-details.jpg"
+directionDetailsImage: "venue_0.jpg"
 directionDetailsTitle: "Get around Gothenburg"
 directionDetailsCards:
- - {title: "From the Airport", information: 'More info coming soon.'}
- - {title: "Public Transit", information: 'More info coming soon.'}
- - {title: "Hotels", information: 'Gothenburg has lots of great hotels and hostels. More information will be available later.'}
+ - {title: "From the Airport", information: 'Gothenburg Landvetter Airport. Between the airport and the University of Gothenburg it takes about 30-45 minutes, however in some days and times traffic can be an issue on the way. Therefore we suggest planning for an hour of travel. From the exit of the terminal, you should see signs for the bus from the airport, called Flygbussarna. The signs bear the logo of the company, which is a rainbow. The stop of the bus is at the exit from the airport, just on the left. Buy a ticket before getting on the bus, you can do this online (flygbussarna.se) or at the automatic machine by the door. Travel to the stop Korsvägen, and then follow directions from Public Transit. This leg should take about 20 minutes in ideal conditions. Note: the Flygbussarna network is not part of the public transports (Västtrafik) network, so tickets bought for one are not valid for the other!'}
+ - {title: "From the Train Station", information: 'Get out from the South exit (to the left with respect to the arrival direction of trains). Once you have crossed the road, you will find yourself on a big square, to the left of you there is a big hotel called Clarion Hotel. Cross the square straight and you will find the tram stop Centralstationen. To go to the University, you can take either Tram 2 from platform B or Tram 4 from platform C, to the station Korsvägen. More info about public transportation below.'}
+ - {title: "Public Transit", information: 'In Gothenburg, it is quite easy to get around using either busses or trams. To travel by tram, you will need a ticket which you can buy with the app Västtrafik or by tapping your payment card on the dedicated readers (this second option is only available in Zone A). Unless you are planning a trip outside of the city, all your travels will be done with a zone A ticket. It is possible to buy physical tickets at selected places and on some trams, but it is more expensive than buying in the app. The closest tram stop to the University where the conference is hosted is called Korsvägen. It is a major centre of transportation dispatch, and from there you can take trams that go more or less everywhere in town. From Korsvägen, you will have to climb up the hill to get to the Department. Follow indications on the map.'}
+ - {title: "Hotels", information: 'The Nordic RSE conference has no special prices with the local hotels. Some of the hotels close to the department are the Comfort Hotel Panorama, the Poseidon, Hotell Heden, Hotell City Avenyn, Hotel Vasa, Scandic Rubinen or Scandic Opalen. But more can be found on Booking.com or other websites. In general, Gothenburg is not a big city, and much of it is walkable distance. Feel free to reach out for more information.'}
 directionDetailsWideCards:
  -
-  title: "Questions?"
+  title: "Questions"
   subCards:
-   -
+  -
     title: "Hotels"
     links:
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Registration"
+      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+  -
+   title: "Registration"
+   links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+  -
+    title: "Attendance Details"
     links:
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    # title: "Attendance Details"
-    # links:
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-    #  - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
