@@ -2,7 +2,8 @@
 
 Website for the 2025 Nordic-RSE conference. Based on the [zeppelin template](https://github.com/gdg-x/zeppelin).
 
-## Local development
+
+## Local preview
 
 Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
 To install all development dependencies install [Bundler](http://bundler.io/).
@@ -27,7 +28,8 @@ Site will be available at http://127.0.0.1:4000/zeppelin/ or http://localhost:40
 
 **NOTE:** in this mode all changes to html and data files will be automatically regenerated, but after changing `_config.yml` you have to restart server.
 
-### Sass(Compass) support
+
+## Sass(Compass) support
 
 **Note:** You need to install [Node.js](http://nodejs.org/download/)
 
@@ -36,7 +38,8 @@ To watch changes of `.sass` files and compile it to the `.css` on a fly change p
 
 Learn more about Sass development from [documentation](https://github.com/gdg-x/zeppelin/wiki/Sass-development).
 
-### Resource optimizations (optional)
+
+## Resource optimizations (optional)
 
 You can optimize images and minify css and javascript automatically (for now only on Windows).
 But for Mac OS users available amazing tool - [imageoptim](https://imageoptim.com/). Thanks [@raphaelsavina](https://github.com/raphaelsavina) for link.
@@ -54,11 +57,13 @@ To minify CSS and JS run `minify_js.bat` (for Windows) and `minify_js.sh` (for L
 
 Learn more about available optimization options from [documentation](https://github.com/gdg-x/zeppelin/wiki/Resources-optimizations).
 
-### Documentation
+
+## Documentation
 
 Quick-start guide is not enough? Checkout [full documentation](https://github.com/gdg-x/zeppelin/wiki).
 
-### Used libraries
+
+## Used libraries
 
 - [Bootstrap](https://github.com/twbs/bootstrap)
 - [Animate.css](https://github.com/daneden/animate.css)
@@ -68,6 +73,7 @@ Quick-start guide is not enough? Checkout [full documentation](https://github.co
 - [Typed.js](https://github.com/mattboldt/typed.js)
 - [Sticky-kit](https://github.com/leafo/sticky-kit)
 
-### License
+
+## License
 
 Project is published under the [MIT license](https://github.com/gdg-x/zeppelin/blob/master/LICENSE.txt). Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)
