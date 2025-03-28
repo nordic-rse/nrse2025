@@ -29,6 +29,39 @@ Site will be available at http://127.0.0.1:4000/zeppelin/ or http://localhost:40
 **NOTE:** in this mode all changes to html and data files will be automatically regenerated, but after changing `_config.yml` you have to restart server.
 
 
+## Local preview using Singularity/Apptainer
+
+You can build a container from this definition file (e.g. `preview.def`):
+```yaml
+BootStrap: docker
+From: ruby:3.4-bookworm
+
+
+%files
+    Gemfile /opt/jekyll/Gemfile
+
+
+%post
+    apt-get update && apt-get install -y build-essential git cmake ruby-dev
+
+    cd /opt/jekyll
+
+    gem update bundler
+    gem install bundler jekyll
+
+    bundle install
+
+
+%runscript
+    bundle exec jekyll serve -w
+```
+
+Then I preview using:
+```bash
+$ ./preview.sif
+```
+
+
 ## Sass(Compass) support
 
 **Note:** You need to install [Node.js](http://nodejs.org/download/)
