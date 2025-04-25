@@ -27,7 +27,7 @@
 
 -
   id: 102
-  title: "Design Patterns: The secret to smarter, reproducible researchs"
+  title: "Design Patterns: The secret to smarter, reproducible research"
   description: "Starting a new software project is exciting! It’s your chance to build something clean, functional, and easy to manage. But without a strong foundation, even small projects can quickly spiral into a confusing mess of bugs, untracked changes, and hard-to-follow code. This is especially true in research environments, where programming often takes a backseat to scientific discovery, and software evolves unpredictably as it adapts to new experiments and shared use.  So how do you set yourself up for success from the beginning?"
   subtype: presentation
   speakers: [102]
