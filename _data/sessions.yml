@@ -6,6 +6,12 @@
   description: "The best time to talk with speakers and attendees"
 
 -
+  id: 999
+  title: ""
+  place: ""
+  description: ""
+
+-
   id: 308
   title: "Coffee Break with posters"
   place: "Hall"
@@ -156,7 +162,7 @@
                Using modern frameworks such as Three.js (for webGL and webVR), Metro UI (for ribbon UI), Vega-Lite (for simple plotting), and Pyodide (for Python support).
                Projects showcased include oxView [https://www.nature.com/articles/s41596-022-00688-5, https://academic.oup.com/nar/article/48/12/e72/5843822, https://github.com/sulcgroup/oxdna-viewer/], vegView [https://github.com/Akodiat/vegView], Volcanic Clouds [https://github.com/Akodiat/volcanicClouds], Vrotein [https://akodiat.github.io/vrotein/], and Redshift search graphs [https://github.com/Akodiat/redshift-search-graphs]."
   subtype: tutorial
-  speakers: []
+  speakers: [302]
 
 -
   id: 401
