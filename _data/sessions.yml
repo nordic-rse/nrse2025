@@ -145,7 +145,7 @@
   title: "Do you have a moment to talk about our lord and savior, vim?"
   description: "For decades have I resisted the idea of learning its infamously arcane and peculiar set of shortcuts. Last year I decided to face my fears, and was amazed at how quickly I learned the basics and how useful they have become in nearly all aspects of my digital life. In this tutorial, I will share the Good News; we'll go through some basic operations and talk a bit about extensions and configurations. Experienced users are also welcome to join and share their favorite tips."
   subtype: tutorial
-  speakers: []
+  speakers: [301]
 
 -
   id: 302
