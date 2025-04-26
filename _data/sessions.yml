@@ -4,6 +4,20 @@
   place: "Hall"
   service: true
   description: "The best time to talk with speakers and attendees"
+
+-
+  id: 999
+  title: ""
+  place: ""
+  description: ""
+
+-
+  id: 308
+  title: "Coffee Break with posters"
+  place: "Hall"
+  service: true
+  description: "The best time to talk with speakers and attendees"
+
 -
   id: 503
   title: "Lunch Break"
@@ -11,56 +25,179 @@
   service: true
 
 -
-  id: 666
-  title: program
-  place: tbd
-  service: true
+  id: 101
+  title: "BoquilaHUB: An open-source tool for researchers and professionals to run and share AI models with applications in biodiversity protection"
+  description: "BoquilaHUB is an open-source cross-platform application designed to empower researchers and professionals in biodiversity conservation by providing a suite of AI models tailored for environmental monitoring and protection. Developed by the Boquila Foundation, the tool emphasizes local deployment, eliminating the need for cloud-based processing, thereby ensuring data privacy and reducing latency."
+  subtype: presentation
+  speakers: [101]
 
 -
-  id: 001
-  title: "Material design: Visual style and imagery"
-  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
-  subtype: workshop
-  speakers: [3, 6]
-  language: en
-  complexity: "Intermediate"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 002
-  title: "Building Cloud-powered wearable Apps"
-  description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
+  id: 102
+  title: "Design Patterns: The secret to smarter, reproducible research"
+  description: "Starting a new software project is exciting! It’s your chance to build something clean, functional, and easy to manage. But without a strong foundation, even small projects can quickly spiral into a confusing mess of bugs, untracked changes, and hard-to-follow code. This is especially true in research environments, where programming often takes a backseat to scientific discovery, and software evolves unpredictably as it adapts to new experiments and shared use.  So how do you set yourself up for success from the beginning?"
   subtype: presentation
-  speakers: [4, 5]
-  language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  speakers: [102]
+
 -
-  id: 003
-  title: "Android L Animation"
-  description: "More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you."
+  id: 103
+  title: "Donated data and what Google already knows"
+  description: "Donated data is user behavioral data, usually recorded by a third party, that a potential subject on a research project already has access to. Anyone who wears a sport tracker, owns a phone, or uses a computer, constantly collects data about their behavior. A lot of this data is accessible to the user and can be donated to different research projects. I will present recent additions to the Niimpy Python library for processing data from takeout.google.com, Googles service for exporting user data, as well as surrounding infrastructure accepting donated data."
   subtype: presentation
-  speakers: [4]
-  language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
+  speakers: [103]
+
 -
-  id: 004
-  title: "Polymer: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [6]
-  language: uk
-  complexity: "Beginner"
-  presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  id: 104
+  title: "What lessons do free software pioneers have for us in 2025?"
+  description: "Ethics.  AI.  These days, people propose all sorts of solutions to the challenges of modern technology.  But some of these ideas go against long standing principles of the free software/open source movements. Is that good?  Do these principles still have a place now, or do we need a re-evaluation of the basic principles?  In order to answer this, we need to understand what these principles are, why they all are, and the history of them.  This talk will attempt to do this."
+  subtype: presentation
+  speakers: [104]
+
 -
-  id: 005
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
+  id: 105
+  title: "Unreviewed and Unrunnable? On the role of peer review in publishing reproducible research software"
+  description: "Have you ever read an interesting research article and got excited to find accompanying code in a Git repository? And have you felt disillusioned after spending considerable time and effort on the attempt to fix that code, left wondering if it had ever been tested? Have you been uncertain what to do due to a lack of instructions, or found out that necessary files were missing? Or have you ended up caught in the dependency hell? We noticed that this was a common theme among researchers and research software engineers across the globe and across disciplines. But how grave is the reproducibility crisis when it comes to research software? And do the typical peer review models of associated research articles enable some of the issues we commonly observe? This talk will share our insights from a recent study targeted at answering those questions. We collected around 480 Git repositories from thematically linked literature in various fields like computational biology, chemistry, immunology, and drug design published in over 70 different journals within the past five years. We first analyzed author and reviewer guidelines and noted an encouraging increase in publishers' efforts to promote the public release of source code in the interest of reproducibility. We conducted a systematic evaluation of over 200 Python-based Git repositories, reviewing instructions on installation and usage, and assessing our ability to deploy and run the repository in our own environment when following the provided instructions. Around every 5th repository had complete installation instructions, and about 40% came with at least partial instructions, enabling us to successfully install more than half of the repositories. Running the repositories was fully reproducible for about 1/5th of the cases, and another 20% were partially runnable without deviations from the instructions or additional required steps. Finally, we were also able to rescue around 20% with minor fixes. However, these numbers also highlight the significant amount of repositories with more severe reproducibility shortcomings and incomplete or missing instructions. We believe that peer review could improve this situation and will discuss the possible reasons for limited or non-systematic review of code contributions. We will also demonstrate the dramatic impact a potential assessment of only the Git repository landing page could have - even if a reviewer does not have programming experience. Finally, we propose strategies how authors, reviewers, publishers and the community alike can support a further increase in robustly reproducible, runnable research software contributions."
+  subtype: presentation
+  speakers: [105]
+
+-
+  id: 106
+  title: "A decade of bug fixing - Building (and maintaining) an open-source tool for research and science communication"
+  description: "OpenSpace is an interactive open-source visualization software designed to visualize the entire known universe. During the last decade, the project has grown from a PhD thesis project into a NASA co-funded ecosystem for research and science communication, used in people’s homes, planetariums, museums, and as a platform for research in both visualization and astronomy. Using the same system for all these areas enables a short circuiting of the knowledge dissemination pipeline by lowering the barrier for domain experts to present their findings to the public. This talk describes the OpenSpace project and the efforts that go into the software’s development and the interaction with researchers, planetariums, users and an active open-source community. It will present some of the software features, explain some of the design considerations, and elaborate on lessons learned when scaling up research software for use in the general public and dealing with the onslaught of bugs that come with it. While much development originates from researchers and engineers at Linköping University, the project is also a collaboration with The American Museum of Natural History, NASA Goddard Space Flight Center, University of Utah, and New York University."
+  subtype: presentation
+  speakers: [106]
+
+-
+  id: 107
+  title: "Modern HPC-access alternatives for the bash averse"
+  description: "The command line has historically been and still is the main way to access HPC clusters. This talk will give an overview of what other alternatives there are to use the Nordic academic HPC compute clusters. As well as take a look at these alternatives and what type of workflows these support. Covering at least Thinlinc, Open OnDemand and Jupyter Notebooks/VSCode + submitit."
+  subtype: presentation
+  speakers: [107]
+
+-
+  id: 108
+  title: "Training Triumphs: Maximizing Impact with External Domain Experts"
+  description: ""
+  subtype: presentation
+  speakers: [108]
+
+-
+  id: 201
+  title: "vim + jupyter + tmux: have a great scientific coding experience in the terminal"
+  description: "Presenting a way to obtain an environment where there is a Python/Julia/R REPL and a text editor side-by-side that talk to each other, all in the terminal and working great both locally or SSH-ed into some node on a cluster. While for many, Jupyter may be synonymous with notebooks, its kernel-client architecture allows for very flexible setups. Let's see how far we can get without GUIs, browsers and other memory-heavy stuff."
+  subtype: presentation
+  speakers: [201]
+
+-
+  id: 202
+  title: "How Alarming"
+  description: "Developing an SMS/call alert system for pilots of autonomous underwater research platforms. Lessons learned in false positives, the necessity of dev/prod separation and managing user expectations. "
+  subtype: presentation
+  speakers: [202]
+
+-
+  id: 203
+  title: "LUMI AI Guide"
+  description: "The LUMI AI Guide (https://github.com/Lumi-supercomputer/LUMI-AI-Guide) serves as a practical resource for researchers and developers transitioning their machine learning applications to the LUMI supercomputer. This guide addresses common challenges faced by users new to high-performance computing (HPC) environments, such as installing Python libraries, managing training data on the Lustre file system, and efficiently scaling machine learning workloads across multiple GPUs and nodes. It also provides insights into utilizing LUMI’s AMD GPUs, which differ in important aspects from the commonly used NVIDIA hardware. While tailored specifically for LUMI, most of the guide’s content is relevant to other HPC clusters used for machine learning projects."
+  subtype: presentation
+  speakers: [203]
+
+-
+  id: 204
+  title: "The RSE experience at the northernmost university in the world"
+  description: "In 2022, we at UiT, The Arctic University of Norway, started our own Research Software Engineering (RSE) group, following in the footsteps of other groups in Europe. We conducted weekly office hours where we assisted researchers in developing and improving their research software, porting codes to high-performance computing (HPC) systems, and packaging and sharing software projects, among other areas of support. By 2024, we celebrated our two-year anniversary and decided to conduct a survey on our impact on their scientific journey: https://research-software.uit.no/blog/2024-user-survey/ In this lightning talk, I will present our group, the results from these past years, and the effect we wish to have at our home institution in the future."
+  subtype: presentation
+  speakers: [204]
+
+-
+  id: 205
+  title: "Harnessing power and synergy – Using game engines to produce visualization and simulation"
+  description: "Using visualization and simulation is a powerful method to test and possibly answer research questions. For the visualization, a well-defined visual method can help a researcher gain insight to truths that are otherwise often obscured when analysing large result datasets through other methods. For the simulation, you can set up scenarios to produce empiric observations that are meant to help answer a research question, rather than trying to prove them with with pure theory, which might be a more cumbersome task and not without its own set of issues and potential pitfalls. Setting up the environments for either method is not a small task, however. One often needs to implement methods for various systems needed, like graphics, interaction, physics, particles, scripting, etc. While there are software solutions available, they often require the user to scale a steep learning curve before being able to operate them efficiently. So unless the user has been diligent in learning specialised software beforehand, using these tools is quite unlikely in a realistic scenario. This lightning talk presents a simple case where a game engine has facilitated the development of a research project, because the game engine was a known tool to the developer beforehand."
+  subtype: presentation
+  speakers: [205]
+
+-
+  id: 206
+  title: "CodeRefinery: Where Research Software Engineers can begin and grow"
+  description: "This talk introduces CodeRefinery—a community-driven initiative enhancing research software through hands-on training, open learning materials, and collaborative workshops. Our focus is on practical tools often missing from academic education, such as version control, reproducible workflows, and collaborative coding. Beyond training, CodeRefinery is an open community where Research Software Engineers and RSE enthusiasts can share knowledge, collaborate, and also co-organize other specialized workshops together. There are many ways to get involved with / support / benefit from CodeRefinery:
+    - Attend a workshop or host a local classroom
+    - Join as an instructor or contribute to lesson materials
+    - Use our resources for your own training and provide feedback"
+  subtype: presentation
+  speakers: [206]
+
+-
+  id: 207
+  title: "The periodic table: R package and visualized with ggplot2"
+  description: "The periodic table of the elements is perhaps one of the most recognizable artefacts in all of science. Despite this, I believe there is a lack of open source tools to create one. In this short talk I will present the R package `periodicdata`, how it came to be, and some ways it can be used to draw customized periodic tables with arguably one of the most popular scientific visualization frameworks, ggplot2. This R package is available on https://github.com/solarchemist/periodicdata or, if you prefer, on https://codeberg.org/solarchemist/periodicdata."
+  subtype: presentation
+  speakers: [207]
+
+-
+  id: 208
+  title: "Experiences from 'High-performance R' course "
+  description: "A researcher using R to analyse their data and conduct statistical analyses may run into a situation where the computational limits of their laptop have been reached or the analyses simply take too long. What to do then? Depending on the researcher's background, R is approached either as a programming language or as an off-the-shelf statistical analysis software via RStudio. We set out to develop an R course in CSC that aims at teaching how R can be used efficiently by looking at how R is designed as a programming language to facilitate analyses in an efficient way in terms of hardware resources and then extending to R usage in an HPC environment. The course is aimed for any researcher using R as their main programming language and wanting to expand their knowledge of R. The instructors' backgrounds include both computer science and a field-specific data analysis perspective in using R. In this talk we give an overview of the course content, discuss experiences from the first course instance in autumn 2024, and outline some future plans."
+  subtype: presentation
+  speakers: [208]
+
+-
+  id: 209
+  title: "N-min-ct - a research software to tell how sustainable is the neighbourhood."
+  description: "Cities of the future are challenged to cope with population growth and an increasing demand for services while reducing their envronmental footprints. A part of a solution is in designing better connected road networks and in transforming urban areas such that minimise commuting time. Hence, Trondheim is among the first to apply the principles of a 15-minute-city - most destinations needed on daily basis are to be found within 15 minutes of commuting time. Analysis of quantity and quality of urban services within reach, given the origin of the trip, various means of transport, existing or planned road networks and other variables, however, is a computationally challenging task that needs custom software. This talk presents an ongoing development of a web-instrument to meet such needs in research on urban planning, and elaborates on desig principles of applications based on graph theory, geospatial computing, complex data pipelines and GPU-acceleration."
+  subtype: presentation
+  speakers: [209]
+
+-
+  id: 301
+  title: "Do you have a moment to talk about our lord and savior, vim?"
+  description: "For decades have I resisted the idea of learning its infamously arcane and peculiar set of shortcuts. Last year I decided to face my fears, and was amazed at how quickly I learned the basics and how useful they have become in nearly all aspects of my digital life. In this tutorial, I will share the Good News; we'll go through some basic operations and talk a bit about extensions and configurations. Experienced users are also welcome to join and share their favorite tips."
+  subtype: tutorial
+  speakers: [301]
+
+-
+  id: 302
+  title: "3D visualisation and manipulation of scientific data in static web applications"
+  description: "Scientific software comes in all shapes and sizes; from small scripts to large systems.
+               While techniques such as containerisation has simplified installation and dependency resolution, getting a program to run can still be a major hurdle for its intended end user.
+               This tutorial will showcase how scientific software projects, in particular those with a need for 3D visualisation, can be shared as static web apps. This way, no installation is required by the user, as they simply visit a URL. Furthermore, no backend needs to be maintained, since the processing is performed and the data is stored locally (in the client application).
+               Using modern frameworks such as Three.js (for webGL and webVR), Metro UI (for ribbon UI), Vega-Lite (for simple plotting), and Pyodide (for Python support).
+               Projects showcased include oxView [https://www.nature.com/articles/s41596-022-00688-5, https://academic.oup.com/nar/article/48/12/e72/5843822, https://github.com/sulcgroup/oxdna-viewer/], vegView [https://github.com/Akodiat/vegView], Volcanic Clouds [https://github.com/Akodiat/volcanicClouds], Vrotein [https://akodiat.github.io/vrotein/], and Redshift search graphs [https://github.com/Akodiat/redshift-search-graphs]."
+  subtype: tutorial
+  speakers: [302]
+
+-
+  id: 401
+  title: "How did we get this answer? Automating lineage preservation in computational pipelines."
+  description: ""
+  subtype: discussion
+  speakers: [401]
+
+-
+  id: 402
+  title: "How to finance your RSE group"
+  description: ""
+  subtype: discussion
+  speakers: [402]
+
+-
+  id: 403
+  title: "Discussion panel"
+  description: ""
+  subtype: discussion
+  speakers: [104]
+
+
+-
+  id: 501
+  title: "Clarity, Not Consensus: Rethinking Unity in Open Science"
+  description: "Open science means different things to different people and fields—ranging from open access and data sharing to open-source tools, preregistration, participatory methods, and efforts to address inequities. This multiplicity is both a strength and a source of tension, especially around ideology and inclusion. These tensions echo the debates of the 1990s within the free/libre and open source software (FLOSS) community, where unresolved ideological divides led to lasting fragmentation between “open source” and “free/libre software”.
+                Drawing on my background in psychology and a decade of promoting open research practices, I highlight how today’s open science movement faces conceptual confusion and disagreement—particularly around ideological values and terminology—that could lead to a split akin to what happened within FLOSS.
+                I argue that we don’t need to agree on a single definition of open science. A more sustainable foundation is mutual clarity about terms and intentions—something increasingly relevant as open science practices begin to shape expectations across research fields, including for software engineers. Implicit ideas about what 'openness' means might surface in decisions about who qualifies as an author, how data is shared or protected, or how collaboration is structured. Clearer definitions can help ensure those assumptions are intentional, not accidental."
   subtype: keynote
-  speakers: [7]
-  language: en
-  complexity: "Expert"
-  presentation: "https://speakerdeck.com/gdglviv/michal-tajchert-wearables-views"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  speakers: [501]
+
+-
+  id: 502
+  title: "Beyond Support: Building Strategic RSE Infrastructures for the Humanities"
+  description: ""
+  subtype: keynote
+  speakers: [502]
