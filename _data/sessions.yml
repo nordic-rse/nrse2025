@@ -106,7 +106,7 @@
   title: "The RSE experience at the northernmost university in the world"
   description: "In 2022, we at UiT, The Arctic University of Norway, started our own Research Software Engineering (RSE) group, following in the footsteps of other groups in Europe. We conducted weekly office hours where we assisted researchers in developing and improving their research software, porting codes to high-performance computing (HPC) systems, and packaging and sharing software projects, among other areas of support. By 2024, we celebrated our two-year anniversary and decided to conduct a survey on our impact on their scientific journey: https://research-software.uit.no/blog/2024-user-survey/ In this lightning talk, I will present our group, the results from these past years, and the effect we wish to have at our home institution in the future."
   subtype: presentation
-  speakers: [204]
+  speakers: [203]
 
 -
   id: 205
