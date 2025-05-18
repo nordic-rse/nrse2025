@@ -5,6 +5,13 @@
   service: true
   description: "The best time to talk with speakers and attendees"
 
+- 
+  id: 001
+  title: "Group Photo"
+  place: "Hall"
+  service: true
+  description: "Let's take a quick group photo in the coffee break area"
+
 -
   id: 999
   title: ""
