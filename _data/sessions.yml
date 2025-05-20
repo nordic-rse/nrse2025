@@ -47,7 +47,7 @@
 
 -
   id: 103
-  title: "Donated data and what Google already knows"
+  title: "Facilitating Donated Data"
   description: "Donated data is user behavioral data, usually recorded by a third party, that a potential subject on a research project already has access to. Anyone who wears a sport tracker, owns a phone, or uses a computer, constantly collects data about their behavior. A lot of this data is accessible to the user and can be donated to different research projects. I will present recent additions to the Niimpy Python library for processing data from takeout.google.com, Googles service for exporting user data, as well as surrounding infrastructure accepting donated data."
   subtype: presentation
   speakers: [103]
