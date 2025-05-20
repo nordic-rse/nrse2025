@@ -49,7 +49,8 @@
 -
   id: 504
   title: "Conference dinner"
-  place: "Dining room (meet at main doors at 18:30 to be let in)"
+  place: "Dining room (meet at main doors before 18:30 to be let in)"
+  description: "Dining room (meet at main doors before 18:30 to be let in)"
   service: true
 
 

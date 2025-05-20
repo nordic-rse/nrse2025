@@ -65,7 +65,7 @@
     - {
         startTime: "18:30",
         endTime: "21:00",
-        sessionIds: [504]  # dinner
+        sessionIds: [504,999]  # dinner
     }
 
 
