@@ -78,7 +78,7 @@
     - {
     	startTime: "9:00",
     	endTime: "10:00",
-    	sessionIds: [502] # keynote
+    	sessionIds: [402]  # financing
     }
     - {
       startTime: "10:00",
@@ -180,5 +180,5 @@
     - {
     	startTime: "16:00",
     	endTime: "17:00",
-    	sessionIds: [402]  # financing
+    	sessionIds: [999]
     }
