@@ -71,90 +71,107 @@
     - {
     	startTime: "9:00",
     	endTime: "10:00",
-    	sessionIds: [502]
+    	sessionIds: [502] # keynote
     }
     - {
       startTime: "10:00",
     	endTime: "10:10",
     	sessionIds: [001]
     }
+    ##########
     - {
     	startTime: "10:10",
     	endTime: "10:30",
-    	sessionIds: [307]
+    	sessionIds: [307]  # coffee
     }
+    ##########
     - {
     	startTime: "10:30",
-    	endTime: "11:00",
-    	sessionIds: [999]  # needs filling
+    	endTime: "10:40",   # Lightning
+    	sessionIds: [206]  # coderefinery
+    }
+    - {
+    	startTime: "10:40",
+    	endTime: "10:50",   # Lightning
+    	sessionIds: [203]  # lumi AI guide
+    }
+
+    - {
+    	startTime: "10:50",
+    	endTime: "11:00",   # Lightning
+    	sessionIds: [205]  # harnesing power and synergy
     }
     - {
     	startTime: "11:00",
     	endTime: "11:10",
-    	sessionIds: [205]
+    	sessionIds: [202]  # How alarming
     }
     - {
-    	startTime: "11:10",
-    	endTime: "11:20",
-    	sessionIds: [202]
+        startTime: "11:10",
+        endTime: "11:30",
+        sessionIds: [310]  # buffer
     }
-    - {
-    	startTime: "11:20",
-    	endTime: "11:30",
-    	sessionIds: [203]
-    }
+    ##########
     - {
         startTime: "11:30",
         endTime: "12:30",
-        sessionIds: [503]
+        sessionIds: [503]  # lunch
     }
+    ##########
     - {
     	startTime: "12:30",
-    	endTime: "12:40",
+    	endTime: "12:40",   # Lightning
     	sessionIds: [204]
     }
     - {
     	startTime: "12:40",
-    	endTime: "12:50",
-    	sessionIds: [206]
-    }
-    - {
-    	startTime: "13:00",
-    	endTime: "13:10",
+    	endTime: "12:50",   # Lightning
     	sessionIds: [207]
     }
     - {
-    	startTime: "13:10",
-    	endTime: "13:20",
+    	startTime: "12:50",
+    	endTime: "13:00",   # Lightning
     	sessionIds: [208]
     }
     - {
-    	startTime: "13:20",
-    	endTime: "13:30",
+    	startTime: "13:00",
+    	endTime: "13:10",   # Lightning
     	sessionIds: [209]
     }
     - {
-    	startTime: "13:30",
-    	endTime: "14:00",
-    	sessionIds: [107]
+        startTime: "13:10",
+        endTime: "13:20",
+        sessionIds: [503]  # buffer
     }
     - {
-    	startTime: "14:00",
-    	endTime: "14:30",
+    	startTime: "13:20",
+    	endTime: "13:50",
+    	sessionIds: [107]  # HPC access alts for bash adverse
+    }
+    - {
+    	startTime: "13:50",
+    	endTime: "14:20",
     	sessionIds: [108]
     }
     - {
+    	startTime: "14:20",
+    	endTime: "14:30",
+    	sessionIds: [309]  # wrap-up
+    }
+    ##########
+    - {
     	startTime: "14:30",
     	endTime: "15:00",
-    	sessionIds: [307]
+    	sessionIds: [307]  # coffee
     }
+    ##########
     - {
     	startTime: "15:00",
     	endTime: "16:00",
-    	sessionIds: [401]
+    	sessionIds: [401] # how do we get this answer
     }
     - {
     	startTime: "16:00",
     	endTime: "17:00",
-    	sessionIds: [402]
+    	sessionIds: [402]  # financing
     }

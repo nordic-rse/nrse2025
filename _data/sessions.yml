@@ -26,6 +26,21 @@
   description: "The best time to talk with speakers and attendees"
 
 -
+  id: 309
+  title: "Wrap-up"
+  place: ""
+  subtype: presentation
+  description: ""
+
+-
+  id: 310
+  title: "Buffer"
+  place: ""
+  description: ""
+  service: true
+
+
+-
   id: 503
   title: "Lunch Break"
   place: "Dining room"
