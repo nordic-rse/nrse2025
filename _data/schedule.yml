@@ -141,7 +141,7 @@
     - {
         startTime: "13:10",
         endTime: "13:20",
-        sessionIds: [503]  # buffer
+        sessionIds: [310]  # buffer
     }
     - {
     	startTime: "13:20",
