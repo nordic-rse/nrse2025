@@ -47,6 +47,13 @@
   service: true
 
 -
+  id: 504
+  title: "Conference dinner"
+  place: "Dining room (meet at main doors at 18:30 to be let in)"
+  service: true
+
+
+-
   id: 101
   title: "BoquilaHUB: An open-source tool for researchers and professionals to run and share AI models with applications in biodiversity protection"
   description: "BoquilaHUB is an open-source cross-platform application designed to empower researchers and professionals in biodiversity conservation by providing a suite of AI models tailored for environmental monitoring and protection. Developed by the Boquila Foundation, the tool emphasizes local deployment, eliminating the need for cloud-based processing, thereby ensuring data privacy and reducing latency."
