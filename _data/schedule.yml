@@ -49,16 +49,16 @@
     }
     - {
     	startTime: "14:30",
-    	endTime: "15:30",
+    	endTime: "15:45",
     	sessionIds: [308,999]  # coffee with posters
     }
+    #- {
+    #	startTime: "15:30",
+    #	endTime: "16:00",
+    #	sessionIds: [999,999]  # To be filled
+    #}
     - {
-    	startTime: "15:30",
-    	endTime: "16:00",
-    	sessionIds: [999,999]  # To be filled
-    }
-    - {
-    	startTime: "16:00",
+    	startTime: "15:45",
     	endTime: "17:00",
     	sessionIds: [403,999]
     }
@@ -86,7 +86,7 @@
     - {
     	startTime: "10:30",
     	endTime: "11:00",
-    	sessionIds: [106]
+    	sessionIds: [999]  # needs filling
     }
     - {
     	startTime: "11:00",
